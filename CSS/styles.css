@@ -1,64 +1,191 @@
  body {
- font-family: "Roboto","Raleway" sans-serif;
- background: #fff;
+     font-family: "Roboto", sans-serif;
+     background: #fff;
+     color: #434455;
  }
+
+ .main-page {
+     background-color: #2e2f42;
+ }
+
  .main-page-hello-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #f04747;
+     font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #fff;
  }
- .main-page-textm{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+
+ .main-page-buttom {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+     background-color: #4D5AE5
  }
- .link{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-decoration: none;
-        
+
+ .main-page-buttom:hover,
+ .link:focus {
+     background-color: #404BBF
  }
- .social-links{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+
+ .main-page-title {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
  }
- .social-links:hover, .link:focus {
-     color: orange;
+
+ .main-page-title-text {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
  }
- .main-page-buttom{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        cursor: pointer;
-        border: none;
+
+ .link {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+     text-decoration: none;
+
  }
- .link-logo{
-font-family: "Raleway", sans-serif;
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+
+ .social-links {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
  }
+
+ .social-links:hover,
+ .link:focus {
+     color: #404bbf;
+ }
+
+
+
+
+
+ .link-logo {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+ }
+
+ .link-logo-name-view {
+     color: #f4f4fd
+ }
+
  .link-logo-name {
-     color:#2e2f42;;
+     color: #2e2f42;
+     ;
+ }
+
+ .adress-social-links {
+     font-style: normal
+ }
+
+ .card {
+     background: #f4f4fd;
+ }
+
+ .card-title-hello {
+     font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #2e2f42;
+     text-transform: capitalize
+ }
+
+
+
+ .card-title {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
+
+ .card-text {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ .project-card {
+     background-color: #F4F4FD
+ }
+
+ .project-card-hello {
+     font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #2e2f42;
+     text-transform: capitalize
+ }
+
+ .project-card-title {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
+
+ .project-card-text {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ .project-card-view {
+     background-color: #FFFFFF
+ }
+
+ .data-view {
+     background-color: #2e2f42
+ }
+
+ .data-view-text {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #f4f4fd;
  }
