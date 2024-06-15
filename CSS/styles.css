@@ -31,7 +31,7 @@
  }
 
  .main-page-buttom:hover,
- .link:focus {
+ :focus {
      background-color: #404BBF
  }
 
@@ -78,6 +78,11 @@
      color: #404bbf;
  }
 
+ .link:hover,
+ .link:focus {
+     color: #404bbf;
+ }
+
 
 
 
@@ -120,6 +125,10 @@
      text-transform: capitalize
  }
 
+ .card-title-view {
+     background-color: #FFFFFF
+ }
+
 
 
  .card-title {
@@ -138,10 +147,6 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
- }
-
- .project-card {
-     background-color: #F4F4FD
  }
 
  .project-card-hello {
