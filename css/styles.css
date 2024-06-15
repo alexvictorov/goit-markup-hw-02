@@ -4,13 +4,19 @@
      color: #434455;
  }
 
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+ }
+
  .main-page {
      background-color: #2e2f42;
  }
 
  .main-page-hello-text {
-     font-family: "Roboto", sans-serif;
-     font-weight: 700;
      font-size: 56px;
      line-height: 1.07;
      letter-spacing: 0.02em;
@@ -20,7 +26,6 @@
 
  .main-page-buttom {
      font-family: "Roboto", sans-serif;
-     font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.04em;
@@ -31,22 +36,20 @@
  }
 
  .main-page-buttom:hover,
- :focus {
+ .main-page-buttom:focus {
      background-color: #404BBF
  }
 
  .main-page-title-data {
-     font-family: "Roboto", sans-serif;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+
  }
 
  .main-page-title-text {
-     font-family: "Roboto", sans-serif;
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
@@ -54,24 +57,22 @@
  }
 
  .link {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
-     text-decoration: none;
 
  }
 
  .social-links {
-     font-family: "Roboto", sans-serif;
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+
  }
+
+
 
  .social-links:hover,
  .social-links:focus {
@@ -84,13 +85,12 @@
  }
 
  .link-logo {
-     font-family: "Raleway", sans-serif;
-     font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
+
  }
 
  .link-logo-name-view {
@@ -103,7 +103,8 @@
  }
 
  .adress-social-links {
-     font-style: normal
+     font-style: normal;
+
  }
 
  .card {
@@ -111,7 +112,6 @@
  }
 
  .card-title-hello {
-     font-family: "Roboto", sans-serif;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -121,6 +121,8 @@
      text-transform: capitalize
  }
 
+
+
  .card-title-view {
      background-color: #FFFFFF
  }
@@ -128,8 +130,6 @@
 
 
  .card-title {
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
@@ -137,8 +137,6 @@
  }
 
  .card-text {
-     font-family: "Roboto", sans-serif;
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
@@ -146,7 +144,6 @@
  }
 
  .title-card-hello {
-     font-family: "Roboto", sans-serif;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -157,7 +154,6 @@
  }
 
  .project-card-title {
-     font-family: "Roboto", sans-serif;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
@@ -166,8 +162,6 @@
  }
 
  .project-card-text {
-     font-family: "Roboto", sans-serif;
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
@@ -175,7 +169,8 @@
  }
 
  .project-card-view {
-     background-color: #FFFFFF
+     background-color: #FFFFFF;
+
  }
 
  .data-view {
@@ -183,8 +178,6 @@
  }
 
  .data-view-text {
-     font-family: "Roboto", sans-serif;
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
