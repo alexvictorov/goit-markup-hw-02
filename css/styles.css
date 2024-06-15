@@ -59,7 +59,7 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #1721df;
+     color: #2e2f42;
      text-decoration: none;
 
  }
@@ -78,17 +78,10 @@
      color: #404bbf;
  }
 
- .link:hover {
-     color: #404bbf;
- }
-
+ .link:hover,
  .link:focus {
      color: #404bbf;
  }
-
-
-
-
 
  .link-logo {
      font-family: "Raleway", sans-serif;
