@@ -74,7 +74,7 @@
  }
 
  .social-links:hover,
- .link:focus {
+ .social-links:focus {
      color: #404bbf;
  }
 
